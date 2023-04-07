@@ -1,0 +1,26 @@
+#name{
+    background-color: lightblue;
+    color: black;
+    text-align: right;
+}
+#bio{
+    background-color: black;
+    color: lightblue;
+    text-align:left
+}
+.container{
+    display:grid;
+    align-items: left;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 600px;
+}
+.text {
+    font-size: 25px;
+    color: black;
+}
+    
