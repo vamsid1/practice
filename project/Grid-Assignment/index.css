@@ -1,0 +1,26 @@
+body{
+    background-color:skyblue;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+.nav{
+    display: grid;
+    height: 200px;
+    width: 250px;
+    margin: 20rem auto;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 100px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#item{
+    height: 15rem;
+    width:20rem;
+}
